@@ -1,0 +1,59 @@
+{
+	"PS head":
+	{
+		"prefix": ["hd"],
+		"body": [
+			"/* Code By Haru_101",
+			"GitHub : haruharo101 */",
+			"\n",
+			"#include <bits/stdc++.h>",
+			"using namespace std;",
+			"#define ll long long int",
+			"#define INF 999999999999",
+			"\n",
+			"void fastio() {",
+			"\tios::sync_with_stdio(false);",
+			"\tcin.tie(0);",
+			"}",
+			"\n",
+			"int main() {",
+			"\tfastio();",
+			"}"
+		],
+		"description": "make head"
+	},
+	"test-case-templete":
+	{
+		"prefix": ["tc"],
+		"body": [
+			"int T;",
+			"cin >> T;",
+			"while(T--) { ",
+			"\tcode here",
+			"}"
+		],
+		"description": "make test case templete"
+	},
+	"repeat1":
+	{
+		"prefix": ["rep1"],
+		"body": [
+			"for(int i=0; i<N; i++) {",
+			"\tcode here",
+			"}"
+		],
+		"description": "make repeat-1 templete"
+	},
+	"repeat2":
+	{
+		"prefix": ["rep2"],
+		"body": [
+			"for(int i=0; i<N; i++) {",
+			"\tfor(int j=0; j<N; j++) {",
+			"\t\tcode here",
+			"\t}",
+			"}"
+		],
+		"description": "make repeat-2 templete"
+	},
+}
