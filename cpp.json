@@ -3,8 +3,8 @@
 	{
 		"prefix": ["hd"],
 		"body": [
-			"/* Code By [ Your Handle ]",
-			"GitHub : [ Your Github Handle ] */",
+			"/* Code By Haru_101",
+			"GitHub : haruharo101 */",
 			"\n",
 			"#include <bits/stdc++.h>",
 			"using namespace std;",
@@ -55,5 +55,20 @@
 			"}"
 		],
 		"description": "make repeat-2 templete"
+	},
+	"fibobasic":
+	{
+		"prefix": ["fib"],
+		"body": [
+			"vector<ll> fibo(1000005);",
+			"for(int h=1; h<=1000000; h++) {",
+			"\tif(h==1 || h==2) {",
+			"\t\tfibo[h]=1;",
+			"\t} else {",
+			"\t\tfibo[h]=fibo[h-1]+fibo[h-2];",
+			"\t}",
+			"}",
+		],
+		"description": "make fibonacci basic templete"
 	},
 }
