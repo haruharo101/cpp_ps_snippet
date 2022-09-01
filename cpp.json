@@ -3,8 +3,8 @@
 	{
 		"prefix": ["hd"],
 		"body": [
-			"/* Code By Haru_101",
-			"GitHub : haruharo101 */",
+			"/* Code By [ Your Handle ]",
+			"GitHub : [ Your Github Handle ] */",
 			"\n",
 			"#include <bits/stdc++.h>",
 			"using namespace std;",
