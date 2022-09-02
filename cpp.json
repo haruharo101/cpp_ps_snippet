@@ -32,7 +32,7 @@
 			"int T;",
 			"cin >> T;",
 			"while(T--) { ",
-			"\tcode here",
+			"\t$0",
 			"}"
 		],
 		"description": "make test case templete"
@@ -42,7 +42,7 @@
 		"prefix": ["rep1"],
 		"body": [
 			"for(int i=0; i<N; i++) {",
-			"\tcode here",
+			"\t$0",
 			"}"
 		],
 		"description": "make repeat-1 templete"
@@ -53,7 +53,7 @@
 		"body": [
 			"for(int i=0; i<N; i++) {",
 			"\tfor(int j=0; j<N; j++) {",
-			"\t\tcode here",
+			"\t\t$0",
 			"\t}",
 			"}"
 		],
