@@ -3,13 +3,14 @@
 	{
 		"prefix": ["hd"],
 		"body": [
-			"/* Code By [ Your Handle ]",
-			"GitHub : [ Your Handle ] */",
+			"/* Code By Haru_101",
+			"GitHub : haruharo101 */",
 			"\n",
 			"#include <bits/stdc++.h>",
 			"using namespace std;",
 			"#define ll long long int",
 			"#define INF 999999999999",
+			"#define all(v) (v).begin(), (v).end()",
 			"\n",
 			"void fastio() {",
 			"\tios::sync_with_stdio(false);",
@@ -70,5 +71,31 @@
 			"}",
 		],
 		"description": "make fibonacci basic templete"
+	},
+	"bigint_sum":
+	{
+		"prefix": ["ssum"],
+		"body": [
+			"string ssum(string sa, string sb) {",
+			"\tint tmp = 0;",
+			"\tstring res = \"\";",
+			"\twhile(!sa.empty() || !sb.empty() || tmp) {",
+			"\t\tif(!sa.empty()) {",
+			"\t\t\ttmp += (sa.back() - '0');",
+			"\t\t\tsa.pop_back();",
+			"\t\t}",
+			"\t\tif(!sb.empty()) {",
+			"\t\t\ttmp += (sb.back() - '0');",
+			"\t\t\tsb.pop_back();",
+			"\t\t}",
+			"\t\tres += ((tmp%10) + '0');",
+			"\t\ttmp /= 10;",
+			"\t}",
+			"\treverse(all(res));",
+			"\treturn res;",
+			"}",
+			"\n"
+		],
+		"description": "make bigint_sum templete"
 	},
 }
