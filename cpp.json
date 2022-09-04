@@ -107,7 +107,7 @@
 			"bool mers_p(int R) {",
 			"\tint tmp = 1;",
 			"\tbool f=false;",
-			"\twhile(tmp <= 2^31) {",
+			"\twhile(tmp <= 2^30) {",
 			"\t\ttmp<<=1;",
 			"\t\tif(tmp == R+1) {",
 			"\t\t\tf=true;",
