@@ -100,4 +100,31 @@
 		],
 		"description": "make bigint_sum templete"
 	},
+	"mers_p":
+	{
+		"prefix": ["mers_p"],
+		"body": [
+			"bool mers_p(int R) {",
+			"\tint tmp = 1;",
+			"\tbool f=false;",
+			"\twhile(tmp <= 2^31) {",
+			"\t\ttmp<<=1;",
+			"\t\tif(tmp == R+1) {",
+			"\t\t\tf=true;",
+			"\t\t\tbreak;;",
+			"\t\t}",
+			"\t}",
+			"\tif(!f) {",
+			"\t\treturn false;",
+			"\t} else {",
+			"\t\tfor(int k=2; k<=(int)sqrt(R); k++) {",
+			"\t\t\tif(R%k == 0) return false;",
+			"\t\t}",
+			"\t}",
+			"\treturn true;",
+			"}",
+			"\n"
+		],
+		"description": "make meresenne_prime_check templete"
+	},
 }
