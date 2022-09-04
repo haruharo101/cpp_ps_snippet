@@ -25,8 +25,8 @@
 - ```ssum``` : ```C++```에서의 큰 수 덧셈을 문자열로 구해줍니다. ```ssum(string, string)```으로 호출하면 ```string```이 ```return```됩니다.
 (https://www.acmicpc.net/problem/15353)
 
-- ```mers_p``` : ```2**N-1```꼴의 정수가 소수인지 판별합니다.  ``` mers_p(int)```로 호출하면 소수인 경우 ```true(1)```, 아닌 경우 ```false(0)```이 ```return```됩니다.
-시간복잡도는 ```O(sqrt(N))```입니다. 코드는 [ncode님의 블로그](https://blog.naver.com/xtelite/50087283849)를 참고했습니다.
+- ```mers_p``` : ```2**n-1```꼴의 정수가 소수인지 판별합니다.  ``` mers_p(int)```로 호출하면 소수인 경우 ```true(1)```, 아닌 경우 ```false(0)```이 ```return```됩니다.
+시간복잡도는 ```O(sqrt(int))```입니다. 코드는 [ncode님의 블로그](https://blog.naver.com/xtelite/50087283849)를 참고했습니다.
 
 #### 메인
 
