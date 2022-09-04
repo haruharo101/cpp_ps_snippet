@@ -111,7 +111,7 @@
 			"\t\ttmp<<=1;",
 			"\t\tif(tmp == R+1) {",
 			"\t\t\tf=true;",
-			"\t\t\tbreak;;",
+			"\t\t\tbreak;",
 			"\t\t}",
 			"\t}",
 			"\tif(!f) {",
