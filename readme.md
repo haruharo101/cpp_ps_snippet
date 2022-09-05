@@ -38,7 +38,9 @@
 
 - ```dist(Point A, Point B), dist_d(Point_d A, Point_d B)``` : 차례대로 정수, 실수형 좌표를 저장한 구조체 2개를 받아 두 점간의 유클리드 거리를 ```return``` 합니다. 이때, 두 함수 모두 ```double```을 ```return``` 합니다.
 
-예시 ) 
+###### 예시
+
+> CODE
 ```
 int main() {
     pair<int, int> X = {0, 0};
@@ -48,9 +50,9 @@ int main() {
     cout << dist(pipo(X), pipo(Y)) << '\n';
     cout << dist_d(pipo_d(Xd), pipo_d(Yd)) << '\n';
 }
-
-OUTPUT
-
+```
+> OUTPUT
+```
 5.83095
 6.7082
 ```
