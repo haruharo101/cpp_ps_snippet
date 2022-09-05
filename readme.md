@@ -20,7 +20,7 @@
 
 ```debug```를 이용하여 로컬에서는 출력되지만 백준 채점 환경에서는 출력이 안되게 할 수 있습니다. (```debug << "hello world!";```) 
 
-(Thanks to [@junah201] (https://www.github.com/junha201))
+(Thanks to [@junah201](https://www.github.com/junha201))
 
 #### 함수
 
