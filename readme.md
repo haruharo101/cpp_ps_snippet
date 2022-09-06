@@ -85,3 +85,7 @@ int main() {
 - ```rep1``` : 1중 반복문을 출력합니다.
 
 - ```rep2``` : 2중 반복문을 출력합니다.
+
+### 도움을 주신 분들
+- [junah201](https://github.com/junah201) 
+- [cog25](https://github.com/cog25)
