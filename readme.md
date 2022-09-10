@@ -39,7 +39,7 @@ int main() {
     cout << c << '\n'; (c+c) mod P
     cout << c*2-a << '\n'; // (c*2-a) mod P
     cout << a*b*c << '\n'; // (a*b*c) mod P
-    cout << a.pow(2000000000000) << '\n'; // (a*m) mod P
+    cout << a.pow(2000000000000) << '\n'; // (a**m) mod P
     cout << a.inverse(); // a의 모듈러 곱셈 역원
 }
 ```
