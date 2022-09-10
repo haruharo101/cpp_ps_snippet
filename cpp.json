@@ -191,6 +191,7 @@
 			"    constexpr Modulo& operator-=(const Modulo& rhs) {(*this) = (*this) - rhs; return *this;}",
 			"    constexpr Modulo operator*(const Modulo& rhs) const {return Modulo((n * rhs.n) % P);}",
 			"    constexpr Modulo& operator*=(const Modulo& rhs) {(*this) = (*this) * rhs; return *this;}",
+			"    friend ostream& operator << (ostream &out, Modulo t){ return out << t.n; }",
 			"",
 			"    [[nodiscard]] constexpr Modulo pow(unsigned long long powered) const {",
 			"        if (powered <= 1) {",
