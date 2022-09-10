@@ -25,8 +25,7 @@
 #### 클래스
 
 - ```mkmodulo``` : Modulo 연산 클래스입니다. 사칙연산, pow연산과 모듈러 곱셈역원을 지원합니다. 변수는 ```Modulo<P> a```형식으로 작성할 수 있습니다.
-이때, ```P (int)```는 나누는 수를 의미합니다. 
-
+이때, ```P (int)```는 나누는 수를 의미합니다. (Thanks to [invrtd-h](https://github.com/invrtd-h), [justiceHui](https://github.com/justiceHui))
 > CODE
 ```
 int main() {
